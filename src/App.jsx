@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import RecipeFilterApp from './Components/RecipeFilterApp'
 import ZigzagString from './Components/ZigzagString'
+import PaginatedBookmarkList from './Components/PaginatedBookmarkList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
     {/* <RecipeFilterApp/> */}
-    <ZigzagString/>
+    <PaginatedBookmarkList/>
     </>
   )
 }
